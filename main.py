@@ -94,5 +94,3 @@ for i in range(1, N):
 
 lost_card = expected_sum - actual_sum
 print("Ur card is", lost_card)
-
-
