@@ -1,18 +1,28 @@
 # 5я лаба
-#1е задание
-students = []
-while True:
-    student_info = input("Введите информацию о студенте (Имя Фамилия, Группа, Предмет): ")
-    if student_info == "":
-        break
-    students.append(student_info)
+# tmp_sp = ['Вершинин Сергей', '21', 'муж', '4й курс']
+# tmp_sp.append('Холост')
+# tmp_sp.sort()
+# tmp = sorted(tmp_sp)
+# pop_us = tmp.pop(0)
+# tmp.reverse()
 
-students = [student.split(", ") for student in students]
 
-sorted_students = sorted(students, key=lambda x: (x[0], x[1]))
 
-for student in sorted_students:
-    print(", ".join(student))
+
+# #1е задание
+# students = []
+# while True:
+#     student_info = input("Введите информацию о студенте (Имя Фамилия, Группа, Предмет): ")
+#     if student_info == "":
+#         break
+#     students.append(student_info)
+
+# students = [student.split(", ") for student in students]
+
+# sorted_students = sorted(students)
+
+# for student in sorted_students:
+#     print(", ".join(student))
 
 #2е задание
 #Список

@@ -1,7 +1,7 @@
-# уже не пусто
+﻿# уже не пусто
 
 # 1е задание
-text = "Hello, World!"
+text = "hello, world!"
 
 print("Длина строки:", len(text))
 
@@ -20,12 +20,27 @@ print("Разделение строки на слова:", text.split(','))
 print("Состоит ли строка только из букв:", text.isalpha())
 
 print("Состоит ли строка только из цифр:", text.isnumeric())
+#новые строки
+print("Слияние:", text.join(text))
+print("2:", text.upper())
+print("3:", text.islower())
+print("4:", text.title())
+print("5:", text.capitalize())
 
+#+5
 words = ['Hello', 'World']
 print("Объединение слов в строку:", ' '.join(words))
 
 
 # 2е задание
+#сортировка
+
+def my_sort(students):
+    for i in student:
+        for j in i:
+            tmp = j
+    return tmp
+
 students = []
 
 n = int(input("Введите количество учеников: "))
