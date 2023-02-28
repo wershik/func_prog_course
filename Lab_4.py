@@ -20,14 +20,14 @@ print("Разделение строки на слова:", text.split(','))
 print("Состоит ли строка только из букв:", text.isalpha())
 
 print("Состоит ли строка только из цифр:", text.isnumeric())
-#новые строки
+#+5
 print("Слияние:", text.join(text))
 print("2:", text.upper())
 print("3:", text.islower())
 print("4:", text.title())
 print("5:", text.capitalize())
 
-#+5
+
 words = ['Hello', 'World']
 print("Объединение слов в строку:", ' '.join(words))
 

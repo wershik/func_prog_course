@@ -52,30 +52,30 @@ for i in float_range(10):
 
 
 #3й пункт - задачи:
-# 1я 
-# A = int(input("Enter the first number: "))
-# B = int(input("Enter the second number: "))
+#1я 
+A = int(input("Enter the first number: "))
+B = int(input("Enter the second number: "))
 
-# for i in range(A, B + 1):
-#     print(i)
+for i in range(A, B + 1):
+    print(i)
 
-# 2я 
-# A = int(input("Enter the first number: "))
-# B = int(input("Enter the second number: "))
+#2я 
+A = int(input("Enter the first number: "))
+B = int(input("Enter the second number: "))
 
-# if A < B:
-#     for i in range(A, B + 1):
-#         print(i)
-# else:
-#     for i in range(A, B - 1, -1):
-#         print(i)
+if A < B:
+    for i in range(A, B + 1):
+        print(i)
+else:
+    for i in range(A, B - 1, -1):
+        print(i)
 
-# 3я 
-# A = int(input("Enter the first number: "))
-# B = int(input("Enter the second number: "))
+#3я 
+A = int(input("Enter the first number: "))
+B = int(input("Enter the second number: "))
 
-# for i in range(A, B - 1, -2):
-#     print(i)
+for i in range(A, B - 1, -2):
+    print(i)
 
 # 4я 
 print("Rules of the Gamr:")
